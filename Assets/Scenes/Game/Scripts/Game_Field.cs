@@ -107,7 +107,7 @@ public class Game_Field : UIBehaviour
         int returnCount = 0;
         foreach(Game_Cell cell in cells)
         {
-            if(cell.GetClickable() == true)
+            if(cell.GetStoneColor() == stoneColor)
             {
                 returnCount++;
             }
